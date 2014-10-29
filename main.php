@@ -14,6 +14,6 @@ $string = json_decode($twitter->setGetfield($getfield)
 ->buildOauth($url, $requestMethod)
 ->performRequest(),$assoc = TRUE);
 
-$userTweets = classes\HtmlPrinter::printTweets($string);
-$userProfile = classes\HtmlPrinter::printProfile($string);
+$userTweets = index\Printer::printTweets($string);
+$userProfile = index\Printer::printProfile($string);
 ?>

@@ -1,3 +1,4 @@
+<?php
 require 'Loader.php';
 
 $settings = array(
